@@ -11,7 +11,7 @@ False
 ```
 
 
-
+```
 def twosum(lst, k):
     for i in range(len(lst)):
         for j in range(len(lst)):
@@ -22,4 +22,4 @@ def twosum(lst, k):
 lst1 = list(map(int,input().split(" ")))
 kn = int(input())
 print(twosum(lst1, kn))
-        
+```       
